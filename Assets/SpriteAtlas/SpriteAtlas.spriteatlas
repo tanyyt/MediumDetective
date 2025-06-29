@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 64b547b45da314991b4d829761a270e6, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 1473a813317264fa581292bea0687a6d, type: 3}
+  - {fileID: 21300000, guid: 4b7709330eb8e4037a59665fac6009c0, type: 3}
+  - {fileID: 21300000, guid: 65dd61746d1b1404997a38cc3a4d7a6b, type: 3}
+  - {fileID: 21300000, guid: 27d974062409a4d4ca9326b8f6a0131a, type: 3}
+  - {fileID: 21300000, guid: e22f7d364660a456e9080ce1423e22d4, type: 3}
+  - {fileID: 21300000, guid: db523cb60bcee4a3599fcfd19640ff28, type: 3}
+  - {fileID: 21300000, guid: d3a73ad64d72c44e7950b305f6e28f6a, type: 3}
+  - {fileID: 21300000, guid: 9984da085538741a08dd0fb03d6a3439, type: 3}
+  - {fileID: 21300000, guid: 6ae483a8b58604c44b46ee61b82f3718, type: 3}
+  - {fileID: 21300000, guid: f2763559b8b834b92b734588d67d89f0, type: 3}
+  - {fileID: 21300000, guid: f94852d953482446388b298394b896b1, type: 3}
+  - {fileID: 21300000, guid: fd167a1addcec4425811a8b3c84618a1, type: 3}
+  - {fileID: 21300000, guid: 162bb9baad006487fb3bf205b0b2c6bf, type: 3}
+  - {fileID: 21300000, guid: 95eff97c3636d41dfbc8a32acbd7d4a1, type: 3}
+  - {fileID: 21300000, guid: bb44b64efd95e4294b70a5216e2fa516, type: 3}
+  - {fileID: 21300000, guid: d6e49a1f2e10f4cb0aad23c26a8882ec, type: 3}
+  - {fileID: 21300000, guid: a651088f55d1241d98f027bcbdb1357f, type: 3}
+  - {fileID: 21300000, guid: 1167609f5f17944b5bc0287ac1cf4adb, type: 3}
+  - {fileID: 21300000, guid: d24465df68fb542a1a48cf7e1e897594, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - hourglass
+  - glass
+  - mono_lisa
+  - frame
+  - line
+  - sun_flower
+  - smell
+  - picture_frame
+  - light
+  - hearing
+  - vision
+  - sun_flower_1
+  - talk
+  - button_close
+  - check_mark
+  - button
+  - box
+  - line1
+  - help
+  m_RenderDataMap: {}
+  m_Tag: SpriteAtlas
+  m_IsVariant: 0
