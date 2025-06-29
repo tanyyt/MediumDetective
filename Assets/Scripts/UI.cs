@@ -17,7 +17,7 @@ public class UI : MonoBehaviour
     public TimelineAsset visionAsset;
     public TimelineAsset hearingAsset;
     public TimelineAsset sunFlowerAsset;
-    
+
     public GameObject successText;
     public GameObject failureText;
     public GameObject resultPanel;
@@ -28,7 +28,7 @@ public class UI : MonoBehaviour
     public GameObject answerPanel;
     public GameObject helpPanel;
     public Toggle[] correctAnswers;
-    
+
     private Coroutine m_Coroutine;
 
     void Awake()
@@ -73,7 +73,7 @@ public class UI : MonoBehaviour
         failureText.SetActive(false);
         successText.SetActive(true);
     }
-    
+
     private void OnRetryClick()
     {
         SceneManager.LoadScene("GameScene");
@@ -116,7 +116,7 @@ public class UI : MonoBehaviour
         playableDirector.Play();
         m_Coroutine = StartCoroutine(WaitForStop((float)playableDirector.playableAsset.duration));
     }
-    
+
     public void OnButtonUp()
     {
         if (null != m_Coroutine)
@@ -131,6 +131,7 @@ public class UI : MonoBehaviour
     private IEnumerator WaitForStop(float time)
     {
         yield return new WaitForSeconds(time);
+        yield return null;
         if (null != m_Coroutine)
         {
             OnButtonUp();
